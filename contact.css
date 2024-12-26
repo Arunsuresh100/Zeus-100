@@ -1,0 +1,187 @@
+
+body{
+    overflow-y: scroll;    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    height:auto;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+.section1 p{
+    font-size: 3rem;
+    font-weight: 700;
+    margin:20px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color:black;
+    padding:50px 30px 25px;
+    box-shadow: 3px 3px 20px rgb(174, 233, 213);
+    border-radius: 10px;
+   }
+   .form input{
+    height:30px;
+    display: flex;
+    width:100%;
+    border-radius: 5px;
+    padding:5px 0px 5px 5px;
+    border:2px solid lightblue;
+    font-size: .9rem;
+    outline: none;
+   }
+   .form input:not(input[type="submit"])
+   {
+    transform: scale(1);
+    transition: transform .8s ease-in-out,border-color .8s ease-in;
+    &:hover{
+        transform: scale(1.01);
+        border-color: gold;
+    }
+   }
+   .form textarea{
+    width:100%;
+    border-radius: 5px;
+    padding:5px 0px 5px 5px;
+    height:5rem;
+    font-size: .9rem;
+    outline: none;
+    border:2px solid lightblue;
+    transform: scale(1);
+    transition: transform .8s ease-in-out,border-color .8s ease-in;
+    &:hover{
+        transform: scale(1.01);
+        border-color: gold;
+    }
+   }
+   .form .namesection{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+   }
+   .portion{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width:98%;
+   }
+   .msg_send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .msg_send input{
+    background-color:lightskyblue;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    height:auto;
+    font-size: 1rem;
+    transition: background-color .8s ease-in;
+    &:hover{
+    background-color: orange;
+   }
+   }
+   .contact_backhome{
+    padding:2px 0px;
+   }
+  
+   @media (max-width:450px)
+   {
+    section{
+        padding:20px 0px;
+    }
+    .section1 p{
+        font-size: 3rem;
+        font-weight: 700;
+        margin:30px;
+    }
+    .subsection:last-child{
+        width:100%;
+    }
+    .form form{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        background-color:black;
+        padding:40px 20px 20px;
+        box-shadow: 3px 3px 20px rgb(174, 233, 213);
+        border-radius: 10px;
+       }
+       .form input[type='submit']
+       {
+        height:40px;
+       }
+       .form input{
+        height:25px;
+        display: flex;
+        width:100%;
+        border-radius: 5px;
+        /* padding:5px 0px 5px 5px; */
+        border:2px solid lightblue;
+        font-size: .9rem;
+        outline: none;
+       }
+       .form input:not(input[type="submit"])
+       {
+        transform: scale(1);
+        transition: transform .8s ease-in-out,border-color .8s ease-in;
+        &:hover{
+            transform: scale(1.01);
+            border-color: gold;
+        }
+       }
+       .form textarea{
+        width:100%;
+        border-radius: 5px;
+        padding:5px 0px 5px 5px;
+        height:5rem;
+        font-size: .9rem;
+        outline: none;
+        border:2px solid lightblue;
+        transform: scale(1);
+        transition: transform .8s ease-in-out,border-color .8s ease-in;
+        &:hover{
+            transform: scale(1.01);
+            border-color: gold;
+        }
+       }
+
+       .form .namesection{
+        display: flex;
+        flex-direction:column;
+        gap:1rem;
+       }
+       .form .namesection input{
+        width:99%;
+       }
+       .portion{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        width:98%;
+       }
+       .msg_send{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .msg_send input{
+        background-color:lightskyblue;
+        border:none;
+        cursor: pointer;
+        padding:10px;
+        height:auto;
+        font-size: 1rem;
+        transition: background-color .8s ease-in;
+        &:hover{
+        background-color: orange;
+       }
+       }
+   }

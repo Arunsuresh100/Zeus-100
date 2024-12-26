@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav_start">
+            <!-- logo -->
+            <div class="nav_section">
+                 <label for="">Zeus</label>
+            </div>
+            <!-- Nav items -->
+            <div class="nav_section">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="help.html">Help</a></li>
+                </ul>
+            </div>
+            <!-- buttons -->
+            <div class="nav_section">
+                <div class="nav_buttons">
+                    <button onclick="navigate_to_login()">Login</button>
+                    <button onclick="navigate_to_signin()">Sign up</button>
+                </div>
+            </div>
+            <!-- for responsive -->
+            <div class="nav_section sub_menu1">
+                <div class="menu_symbol" title="Menu">
+                    <svg  onclick="openmenu()" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+        <div class="submenu_items">
+           <div class="full_ul" style="display:none;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+           </div>
+        </div>
+       </header>
+       <main>
+            <section>
+                <div class="section1">
+                    <div class="subsection">
+                        <p>Contact as</p>
+                    </div>
+                   <div class="subsection">
+                    <div class="form">
+                        <form action="">
+                            <div class="namesection">
+                                <input type="text" placeholder="First name" autofocus >
+                                <input type="text" placeholder="Last name" autofocus >
+                            </div>
+                            <div class="portion">
+                                <div class="contact_email">
+                                    <input type="email" name="email1" id="email1" placeholder="Email id" autofocus >
+                                </div>
+                                <div class="contact_number">
+                                    <input type="text" name="number1" id="number1" placeholder="Phone number" autofocus >
+                                </div>
+                                <div class="contact_msg">
+                                    <textarea name="msg" id="msg" placeholder="Message" autofocus ></textarea>
+                                </div>
+                            </div>
+                            <div class="msg_send">
+                                <input type="submit" value="Send" id="send_msg" onclick="alert('Message Send Sucessfully')">
+                            </div>
+                            <div class="link_gohome contact_backhome">
+                                <a href="index.html">Back to Home</a>
+                            </div>
+                        </form>
+                    </div>
+                   </div>
+                </div>
+            </section>
+       </main> 
+
+       <footer>
+        
+       </footer>
+<script src="script.js"></script>
+</body>
+</html>

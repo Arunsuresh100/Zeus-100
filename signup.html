@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sigin_otherlinks{
+            padding:10px;
+        }
+        .sigin_otherlinks a{
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+     <main>
+        <div class="login_container">
+            <div class="first_box">
+                <div class="login_heading"><h2>Account Creation</h2></div>
+                <div class="content_box">
+                    <form action="">
+                        <h4 id="caption">Sign up</h4>
+                        <div class="inp1">
+                            <input type="text" placeholder="Create Username" name="username1" id="username1" required autofocus>
+                            <span></span>
+                        </div>
+                        <div class="inp1">
+                            <input type="email" placeholder="Email id" name="email" id="email" required autofocus>
+                            <span></span>
+                        </div>
+                        <div class="inp1">
+                            <input type="password" name="password1" id="password1" placeholder="Password" required autofocus>
+                            <span></span>
+                        </div>
+                        <div class="inp1">
+                            <input type="password" name="conformpassword" id="Conformpassword" placeholder="Conform Password" required autofocus>
+                            <span></span>
+                        </div>
+                        <input type="submit" value="Sign up" name="signup" onclick="alert('Account Created sucessfully');">
+                        <div class="otherlinks sigin_otherlinks">
+                            <a href="login.html">Login in to Zeus</a>
+                            <p>or</p>
+                            <a href="index.html">Go back to Home</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </main>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="help.css">
+</head>
+<body>
+    <header>
+        <div class="nav_start">
+            <!-- logo -->
+            <div class="nav_section">
+                 <label for="">Zeus</label>
+            </div>
+            <!-- Nav items -->
+            <div class="nav_section">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="help.html">Help</a></li>
+                </ul>
+            </div>
+            <!-- buttons -->
+            <div class="nav_section">
+                <div class="nav_buttons">
+                    <button onclick="navigate_to_login()">Login</button>
+                    <button onclick="navigate_to_signin()">Sign up</button>
+                </div>
+            </div>
+            <!-- for responsive -->
+            <div class="nav_section sub_menu1">
+                <div class="menu_symbol" title="Menu">
+                    <svg  onclick="openmenu()" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+        <div class="submenu_items">
+           <div class="full_ul" style="display:none;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+           </div>
+        </div>
+       </header>
+    
+       <main>
+       <section>
+        <div class="section_help">
+            <div class="section1_help">
+                <p>Help</p>
+            </div>
+            <div class="subsection_help">
+                <h2>About</h2>
+                <Article><b>Zeus</b> is a website for students and teachers to study and refer previous year question papers of Mg university cources. here we provide previous questions of last years and there answers by using these contents you can improve your studies this is the overview about this website.</Article>
+            </div>
+        </div>
+       </section>
+       <section>
+        <div class="section2_help">
+            <div class="subsection2_help">
+                <h3>Follow these Steps</h3>
+            </div>
+            <div class="subsection2_help">
+                <h4>Step 1 :</h4>
+                <div class="article_help">
+                    <article>Login in to zeus, if dont have an account then create it. After Creation Login the page.</article>
+                    <div class="img_help_container">
+                        <img src="/login.png" alt="login" title="Login">
+                        <img src="/signup.png" alt="Sign up" title="Sign up">
+                    </div>
+                </div>
+            </div>
+            <div class="subsection2_help">
+                <h4>Step 2 :</h4>
+                <div class="article_help">
+                    <article>After Login go to Service page. then select the Cource that you want<br><a href="service.html" style="color:lightblue;padding:20px 0px;">Service page</a></article>
+                    <div class="img_help_container">
+                        <img src="/service.png" alt="service page image" title="Click the service page">
+                        <img src="/service1.png" alt="Select any cource">
+                    </div>
+                </div>
+            </div>
+            <div class="subsection2_help">
+                <h4>Step 3 :</h4>
+                <div class="article_help">
+                    <article>After selecting the cource you can download the questions by clicking it.</article>
+                    <div class="img_help_container">
+                        <img src="/login.png" alt="login">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       </main>
+
+       <footer>
+        <div class="footer">
+            <p>© 2024 Zeus. All rights reserved.</p>
+        </div>
+       </footer>
+<script src="script.js"></script>
+</body>
+</html>

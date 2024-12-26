@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <header>
+        <div class="nav_start">
+            <!-- logo -->
+            <div class="nav_section">
+                 <label for="">Zeus</label>
+            </div>
+            <!-- Nav items -->
+            <div class="nav_section">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="help.html">Help</a></li>
+                </ul>
+            </div>
+            <!-- buttons -->
+            <div class="nav_section">
+                <div class="nav_buttons">
+                    <button onclick="navigate_to_login()">Login</button>
+                    <button onclick="navigate_to_signin()">Sign up</button>
+                </div>
+            </div>
+            <!-- for responsive -->
+            <div class="nav_section sub_menu1">
+                <div class="menu_symbol" title="Menu">
+                    <svg  onclick="openmenu()" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+        <div class="submenu_items">
+           <div class="full_ul" style="display:none;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+           </div>
+        </div>
+       </header>
+       <main>
+        <div class="full_service">
+            <section>
+                <div class="heading_service">
+                    <h2>Service</h2>
+                </div>
+            </section>
+            <section id="demo_server" class="server_full">
+                <div class="first_box_service">
+                    <div class="demo_server1">
+                        <h4>UG</h4>
+                        <a href="">BCA</a>
+                        <a href="">BCOM</a>
+                        <a href="">BBA</a>
+                        <a href="">BA</a>
+                    </div>
+                </div>
+                <div class="first_box_service">
+                    <div class="demo_server1">
+                    <h4>PG</h4>
+                    <a href="">MCA</a>
+                    <a href="">MCOM</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+       </main>
+       <footer>
+        
+       </footer>
+<script src="script.js"></script>
+</body>
+</html>
